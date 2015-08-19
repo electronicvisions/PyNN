@@ -1,9 +1,9 @@
 """
 PyNN (pronounced 'pine' ) is a Python package for simulator-independent
-specification of neuronal network models. 
+specification of neuronal network models.
 
 In other words, you can write the code for a model once, using the PyNN API, and
-then run it without modification on any simulator that PyNN supports. 
+then run it without modification on any simulator that PyNN supports.
 
 To use PyNN, import the particular simulator module you wish to use, e.g.
     import pyNN.neuron as sim
@@ -22,7 +22,7 @@ Functions for simulation set-up and control:
     rank()
     num_processes()
     list_standard_models()
-    
+
 Functions for creating, connecting, modifying and recording from neurons
 (low-level interface):
     create()
@@ -31,7 +31,7 @@ Functions for creating, connecting, modifying and recording from neurons
     record()
     record_v()
     record_gsyn()
-    
+
 Classes for creating, connecting, modifying and recording from neurons
 (high-level interface):
     Population
@@ -59,6 +59,9 @@ Available simulator modules:
     pcsim
     brian
 
+Available emulator modules:
+    hardware.spikey
+
 Other modules:
     utility
     random
@@ -66,5 +69,5 @@ Other modules:
 """
 
 __version__ = '0.6.0 ( $Rev$)'.replace(' $','')
-__all__ = ["common", "random", "nest", "neuron", "pcsim", "brian", "recording"]
+__all__ = ["common", "random", "nest", "neuron", "pcsim", "brian", "recording", "hardware"]
 

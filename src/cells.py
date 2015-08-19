@@ -163,15 +163,14 @@ class IF_facets_hardware1(StandardCellType):
     """
     
     default_parameters = {
-        'g_leak'    :   40.0,     # nS
-        'tau_syn_E' :   30.0,     # ms
-        'tau_syn_I' :   30.0,     # ms
+        'g_leak'    :   20.0,     # nS
         'v_reset'   :  -80.0,     # mV
-        'e_rev_I'   :  -80.0,     # mV,
-        'v_rest'    :  -65.0,     # mV
-        'v_thresh'  :  -55.0      # mV
+        'e_rev_I'   :  -80.0,     # mV
+        'v_rest'    :  -75.0,     # mV
+        'v_thresh'  :  -55.0,     # mV
+        'tau_refrac':    1.0      # ms
     }
-    recordable = ['spikes', 'v', 'gsyn']
+    recordable = ['spikes', 'v']
 
 
 class HH_cond_exp(StandardCellType):
