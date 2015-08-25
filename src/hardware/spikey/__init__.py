@@ -1398,13 +1398,11 @@ def systemInfo():
 
     pyhalver = svnrev('$PYNN_HW_PATH', 'git')
     spikeyver = svnrev('$SPIKEYHALPATH', 'git')
-    symap2icver = svnrev('$SYMAP2IC_PATH', 'git')
 
     result = 'Host: ' + str(os.uname()) + '\n'
     result += 'Python: ' + sys.version + '\n'
     result += 'Time: ' + time.strftime('%Y-%m-%d %H:%M:%S') + '\n'
     result += 'pynnhw svn revision: ' + pyhalver + '\n'
-    result += 'symap2ic git revision: ' + symap2icver + '\n'
     result += 'spikeyhal git revision: ' + spikeyver + '\n'
     result += '_hardwareParameters: ' + str(_hardwareParameters) + '\n'
     return result
