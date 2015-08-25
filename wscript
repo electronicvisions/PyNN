@@ -25,4 +25,4 @@ def build(bld):
     # FIXME: ask distutils/setup.py for relative site-package path (to prefix)
     ver = '.'.join([str(x) for x in sys.version_info[:2]])
     bld.exec_command('python setup.py install --prefix={}'.format(bld.env.PREFIX), cwd=this_dir)
-    bld.exec_command('echo \'{}\' > env.sh'.format(spikey_env_template.format(bld.env.PREFIX, ver)), shell=True)
+    bld.exec_command('echo \'{0}\' > {1}/bin/env.sh'.format(spikey_env_template.format(bld.env.PREFIX, ver), bld.env.PREFIX), shell=True)
