@@ -164,8 +164,8 @@
       <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip506.pkl</calibfileOutputPins>
       <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
       <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip506.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_generic_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_generic_inh.dat</calibfileSynDriverInh>
+      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip506_4to1_7nS_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip506_4to1_7nS_inh.dat</calibfileSynDriverInh>
       <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
@@ -192,8 +192,8 @@
       <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip507.pkl</calibfileOutputPins>
       <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
       <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip507.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_generic_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_generic_inh.dat</calibfileSynDriverInh>
+      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip507_4to1_7nS_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip507_4to1_7nS_inh.dat</calibfileSynDriverInh>
       <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
@@ -220,8 +220,8 @@
       <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip508.pkl</calibfileOutputPins>
       <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
       <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip508.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_generic_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_generic_inh.dat</calibfileSynDriverInh>
+      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip508_4to1_7nS_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip508_4to1_7nS_inh.dat</calibfileSynDriverInh>
       <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
