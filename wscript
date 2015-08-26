@@ -23,6 +23,12 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:{0}/lib"""
 def build(bld):
     this_dir = bld.path.get_src().abspath()
     # FIXME: ask distutils/setup.py for relative site-package path (to prefix)
-    ver = '.'.join([str(x) for x in sys.version_info[:2]])
     bld.exec_command('python setup.py install --prefix={}'.format(bld.env.PREFIX), cwd=this_dir)
-    bld.exec_command('echo \'{0}\' > {1}/bin/env.sh'.format(spikey_env_template.format(bld.env.PREFIX, ver), bld.env.PREFIX), shell=True)
+
+    ver = '.'.join([str(x) for x in sys.version_info[:2]])
+    bld(
+        target = 'env.sh',
+        rule = 'echo \'{0}\' > '.format(spikey_env_template.format(bld.env.PREFIX, ver)) + '${TGT}',
+        shell = True,
+        install_path = 'bin'
+    )
