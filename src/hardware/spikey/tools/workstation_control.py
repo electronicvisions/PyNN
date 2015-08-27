@@ -133,8 +133,7 @@ def getWorkstation(workStationName=None, isFirstSetup=True):
                     if len(myStationString) < 8:
                         raise Exception(syntaxString)
                     myStationString = myStationString[:-1]
-            myLogger.info('Using station ' + myStationString +
-                          ' according to file \'my_stage1_station\' or explicit function argument.')
+            myLogger.info('Using station ' + myStationString)
 
         try:
             stationFile = open(basePath + '/workstations.xml', 'r')
