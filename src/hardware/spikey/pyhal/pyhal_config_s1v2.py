@@ -394,9 +394,9 @@ class HWAccess:
 
             # store vout min and max for this chip
             totalVouts = numVout * numBlocks
-            if voutMins == None:
+            if voutMins is None:
                 voutMins = numpy.ones(totalVouts) * 0.5
-            if voutMaxs == None:
+            if voutMaxs is None:
                 voutMaxs = numpy.ones(totalVouts) * 1.5
             self.voutMins = voutMins
             self.voutMaxs = voutMaxs
@@ -1539,7 +1539,7 @@ class HWAccess:
         '''Returns the Spikey version as an integer.'''
         self.checkHaveHardware()
         if not self.dryRun:
-            if self._chipVersion == None:  # load chip version only once
+            if self._chipVersion is None:  # load chip version only once
                 self._chipVersion = self.sp.version()
             return self._chipVersion
         else:
