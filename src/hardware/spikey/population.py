@@ -173,12 +173,11 @@ class Population(common.Population):
         'Topographic' set. Sets the value of parametername to the values in
         valueArray, which must have the same dimensions as the Population.
         """
-        values = numpy.array(valueArray)
-        if not self.cell.shape == values.shape:
+        if len(valueArray) != self.cell.shape[0]:
             raise Exception(
                 'Population an valueArray must be of same dimensions!')
 
-        for cell, value in zip(self, values.flatten().tolist()):
+        for cell, value in zip(self, valueArray):
             pyNN.hardware.spikey.set(
                 cell, cell.cellclass, parametername, val=value)
 
