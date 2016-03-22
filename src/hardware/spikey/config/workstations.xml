@@ -21,12 +21,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip666.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip666.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip666_4to1_7nS_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip666_4to1_7nS_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip666.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip666.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip666_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip666_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -49,12 +49,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip502.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip502.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip502_4to1_7nS_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip502_4to1_7nS_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip502.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip502.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip502_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip502_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -77,12 +77,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip503.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip503.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip503_4to1_7nS_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip503_4to1_7nS_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip503.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip503.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip503_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip503_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -105,12 +105,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip504.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip504.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip504_4to1_7nS_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip504_4to1_7nS_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip504.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip504.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip504_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip504_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -133,12 +133,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip505.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip505.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_generic_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_generic_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip505.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip505.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip505_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip505_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -161,12 +161,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip506.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip506.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip506_4to1_7nS_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip506_4to1_7nS_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip506.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip506.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip506_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip506_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -189,12 +189,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip507.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip507.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip507_4to1_7nS_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip507_4to1_7nS_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip507.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip507.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip507_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip507_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -217,12 +217,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip508.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip508.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip508_4to1_7nS_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip508_4to1_7nS_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip508.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip508.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip508_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip508_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -245,12 +245,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip509.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip509.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip509_4to1_7nS_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip509_4to1_7nS_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip509.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip509.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip509_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip509_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -273,12 +273,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip512.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip512.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_generic_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_generic_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip512.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip512.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip512_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip512_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -301,12 +301,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip513.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip513.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip513_4to1_7nS_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip513_4to1_7nS_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip513.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip513.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip513_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip513_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -329,12 +329,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip514.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip514.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_generic_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_generic_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip514.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip514.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip514_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip514_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -357,12 +357,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip515.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip515.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_generic_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_generic_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip515.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip515.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip515_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip515_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -385,12 +385,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip516.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip516.dat</calibfileTauMem>
+      <calibfileOutputPins>calibration/calibOutputPins_chip516.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip516.dat</calibfileTauMem>
       <calibfileSynDriverExc>calibration/calibSynDriver_chip516_exc.dat</calibfileSynDriverExc>
       <calibfileSynDriverInh>calibration/calibSynDriver_chip516_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -413,12 +413,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip521.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip521.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip521_4to1_7nS_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip521_4to1_7nS_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip521.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip521.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip521_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip521_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -441,12 +441,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip542.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip542.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip542_4to1_7nS_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip542_4to1_7nS_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip542.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip542.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip542_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip542_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -469,12 +469,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip543.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip543.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip543_4to1_7nS_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip543_4to1_7nS_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip543.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip543.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip543_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip543_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -497,12 +497,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip544.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip544.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip544_4to1_7nS_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip544_4to1_7nS_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip544.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip544.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip544_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip544_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -525,12 +525,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip545.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip545.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip545_4to1_7nS_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip545_4to1_7nS_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip545.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip545.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip545_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip545_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -553,12 +553,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip546.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip546.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip546_4to1_7nS_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip546_4to1_7nS_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip546.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip546.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip546_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip546_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -581,12 +581,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip547.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip547.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip547_4to1_7nS_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip547_4to1_7nS_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip547.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip547.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip547_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip547_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -609,12 +609,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip548.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip548.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip548_4to1_7nS_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip548_4to1_7nS_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip548.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip548.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip548_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip548_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -637,12 +637,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip549.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip549.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip549_4to1_7nS_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip549_4to1_7nS_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip549.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip549.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip549_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip549_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -665,12 +665,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip550.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip550.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip550_4to1_7nS_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip550_4to1_7nS_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip550.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip550.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip550_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip550_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -693,12 +693,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip600.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_generic.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_generic_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_generic_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip600.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip600.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip600_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip600_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -721,12 +721,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip603.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_chip603.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip603.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip603_4to1_7nS_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip603_4to1_7nS_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip603.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_chip603.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip603.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip603_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip603_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -749,12 +749,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip605.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip605.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip605_4to1_7nS_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip605_4to1_7nS_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip605.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip605.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip605_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip605_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -777,12 +777,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_chip666.pkl</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_chip666.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_chip666_4to1_7nS_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_chip666_4to1_7nS_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chip666.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip666.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip666_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip666_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
       <acquisitionDeviceInputs>
@@ -808,12 +808,12 @@
       <recNeurons></recNeurons>
       <spikeyClk>10.0e-9</spikeyClk>
       <speedup>1e4</speedup>
-      <calibfileOutputPins>calibration/calibOutputPins_fhws1v4_generic.dat</calibfileOutputPins>
-      <calibfileIcb>calibration/calibIcb_fhws1v4_generic.dat</calibfileIcb>
-      <calibfileTauMem>calibration/calibTauMem_fhws1v4_generic.dat</calibfileTauMem>
-      <calibfileSynDriverExc>calibration/calibSynDriver_fhws1v4_generic_exc.dat</calibfileSynDriverExc>
-      <calibfileSynDriverInh>calibration/calibSynDriver_fhws1v4_generic_inh.dat</calibfileSynDriverInh>
-      <calibfileVthresh>calibration/calibVthresh_fhws1v4_generic.dat</calibfileVthresh>
+      <calibfileOutputPins>calibration/calibOutputPins_chipXXX.dat</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chipXXX.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chipXXX_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chipXXX_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
       <acquisitionDevice>nn</acquisitionDevice>
       <acquisitionTriggerOffset>-655.36e-6</acquisitionTriggerOffset> <!-- == 1<<21 / (20000 * 16) at 100/200MHz clock -->
       <acquisitionDeviceInputs>
