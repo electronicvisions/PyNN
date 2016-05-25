@@ -726,7 +726,7 @@ class HWAccess:
                     # swap even and uneven feedback lines for feedback to
                     # adjacent block
                     if (source / neuronsPerBlock != hardwareBlock):
-                        driver = driver + 1 - (driver % 2)
+                        driver = driver + 1 - 2 * (driver % 2)
                     # determine the connection weight and type
                     synapse = n.incomingNeuronWeights[c]
                     synapseType = self.synapseStatusByte(synapse)
