@@ -161,6 +161,8 @@ _appliedInputs = None
 _useUsbAdc = False
 # write spiketrain.in and spikeyconfig.out to file
 _writeConfigToFile = True
+# for the runWithDeveloperInterrupt keyword
+_calledRunSinceLastExperimentExecution = False
 
 # soft profiling
 _timeSetupPyNN = 0
@@ -529,6 +531,7 @@ def run(simtime=0, **extra_params):
     global _timeRunPyHAL
     global _timeMemPyNN
     global _dt
+    global _calledRunSinceLastExperimentExecution
 
     # check basic preconditions
     if not _calledSetup:
@@ -539,7 +542,7 @@ def run(simtime=0, **extra_params):
         raise Exception("ERROR: Network is larger than chip size!")
 
     # check for changes in setup and, if necessary, reconfigure hardware
-    if (_neuronsChanged or _synapsesChanged or _connectivityChanged or _chipParamsChanged):
+    if (not _calledRunSinceLastExperimentExecution) and (_neuronsChanged or _synapsesChanged or _connectivityChanged or _chipParamsChanged):
         startTime = time.time()
 
         #######                                          ##
@@ -594,6 +597,21 @@ def run(simtime=0, **extra_params):
 
         _timeConfigPyNN += time.time() - startTime
 
+        # Interrupt experiment execution to permit low level hardware parameter manipulation.
+        if ("interruptRunAfterMapping" in extra_params) and (extra_params["interruptRunAfterMapping"] is True):
+          _calledRunSinceLastExperimentExecution = True
+          if _writeConfigToFile:
+              hardware.writeConfigFile('spikeyconfig_afterFirstMapping.out')
+              hardware.writeInSpikeTrain('spiketrain_afterFirstMapping.in')
+          myLogger.info("* * * INTERRUPT pynn.run() since 'interruptRunAfterMapping=True' * * *")
+          return hardware.hwa.cfg
+
+    # Rentry point after hardware manipulation
+    if _calledRunSinceLastExperimentExecution:
+        myLogger.info("* * * CONTINUE pynn.run() after 'interruptRunAfterMapping=True' * * *")
+        hardware.hwa.applyConfig()
+
+
     if _inputChanged:
         startTime = time.time()
 
@@ -642,6 +660,8 @@ def run(simtime=0, **extra_params):
     _timeRunPyHAL += time.time() - startTimeRunPyhal
     _iteration += 1
     ##########################################################################
+
+    _calledRunSinceLastExperimentExecution = False
 
     if _useUsbAdc:
         startTime = time.time()
