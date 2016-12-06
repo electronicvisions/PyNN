@@ -509,7 +509,7 @@ class HWAccess:
             try:
                 if self.calibIcb:
                     calibList = numpy.loadtxt(calibfileIcb)
-                    if len(calibList) != numNeurons or calibList.shape[1] != 6:
+                    if len(calibList) != numNeurons or calibList.shape[1] != 5:
                         raise Exception(getCalibExceptionStr(
                             calibName, calibfileIcb))
                     # calibList consists of entries in the form [neuron,
