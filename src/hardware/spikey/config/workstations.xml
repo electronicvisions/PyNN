@@ -964,6 +964,34 @@
       <scopeVoltageConversionFactor>0.43</scopeVoltageConversionFactor>
       <scopeVoltageConversionOffset>0.05</scopeVoltageConversionOffset>
     </station550>
+    <station551>
+      <owner>none</owner>
+      <computer></computer>
+      <serialFPGA>nn</serialFPGA>
+      <spikeyNr>551</spikeyNr>
+      <spikeyVersion>5</spikeyVersion>
+      <recNeurons></recNeurons>
+      <spikeyClk>10.0e-9</spikeyClk>
+      <speedup>1e4</speedup>
+      <calibfileOutputPins>calibration/calibOutputPins_chip551.pkl</calibfileOutputPins>
+      <calibfileIcb>calibration/calibIcb_generic.dat</calibfileIcb>
+      <calibfileTauMem>calibration/calibTauMem_chip551.dat</calibfileTauMem>
+      <calibfileSynDriverExc>calibration/calibSynDriver_chip551_exc.dat</calibfileSynDriverExc>
+      <calibfileSynDriverInh>calibration/calibSynDriver_chip551_inh.dat</calibfileSynDriverInh>
+      <calibfileVthresh>calibration/calibVthresh_generic.dat</calibfileVthresh>
+      <acquisitionDevice>nn</acquisitionDevice>
+      <acquisitionTriggerOffset>-655.44e-6</acquisitionTriggerOffset>
+      <acquisitionDeviceInputs>
+        <channel1>-1</channel1>
+        <channel2>-1</channel2>
+        <channel3>-1</channel3>
+        <channel4>-1</channel4>
+      </acquisitionDeviceInputs>
+      <adcCalibFactor>-2.76172766296</adcCalibFactor>
+      <adcCalibOffset>3197.29440293</adcCalibOffset>
+      <scopeVoltageConversionFactor>0.43</scopeVoltageConversionFactor>
+      <scopeVoltageConversionOffset>0.05</scopeVoltageConversionOffset>
+    </station551>
     <station600>
       <owner>none</owner>
       <computer></computer>
