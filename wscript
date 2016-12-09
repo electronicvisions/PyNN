@@ -18,7 +18,8 @@ spikey_env_template = """\
 export PYTHONPATH=$PYTHONPATH:{0}/lib:{0}/lib/python{1}/site-packages
 export PYNN_HW_PATH={0}/deb-pynn/src/hardware/spikey
 export SPIKEYHALPATH={0}/spikeyhal
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:{0}/lib"""
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:{0}/lib
+export PATH=$PATH:{0}/bin"""
 
 def build(bld):
     this_dir = bld.path.get_src().abspath()
