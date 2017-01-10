@@ -421,10 +421,7 @@ class TestZeroWeightConnection(unittest.TestCase):
         # create the populations
         nrn0 = pynn.Population(1, pynn.IF_facets_hardware1)
         nrn1 = pynn.Population(1, pynn.IF_facets_hardware1)
-        stim_params = {
-            'start': 0., 'duration': duration, 'rate': stim_rate
-        }
-        stim = pynn.Population(1, pynn.SpikeSourcePoisson, stim_params)
+        stim = pynn.Population(1, pynn.SpikeSourceArray, dict(spike_times=np.arange(100., duration, 100.)))
         # record the membrane potential of neuron0
         pynn.record_v(nrn0[0], '')
         # create the connectors
@@ -439,8 +436,7 @@ class TestZeroWeightConnection(unittest.TestCase):
         du_run0 = numpy.std(pynn.membraneOutput)
         if self.with_figures:
             pylab.figure()
-            pylab.plot(pynn.timeMembraneOutput, pynn.membraneOutput)
-            pylab.show()
+            pylab.plot(pynn.timeMembraneOutput, pynn.membraneOutput, label="Conn = (0,0)")
 
         # second time
         nrn0_prj = pynn.Projection(stim, nrn0, w_con, target='inhibitory')
@@ -449,9 +445,7 @@ class TestZeroWeightConnection(unittest.TestCase):
         u_run1 = numpy.mean(pynn.membraneOutput)
         du_run1 = numpy.std(pynn.membraneOutput)
         if self.with_figures:
-            pylab.figure()
-            pylab.plot(pynn.timeMembraneOutput, pynn.membraneOutput)
-            pylab.show()
+            pylab.plot(pynn.timeMembraneOutput, pynn.membraneOutput, label="Conn = (w,w)")
 
         # third time
         nrn0_prj = pynn.Projection(stim, nrn0, w_con, target='inhibitory')
@@ -460,8 +454,8 @@ class TestZeroWeightConnection(unittest.TestCase):
         u_run2 = numpy.mean(pynn.membraneOutput)
         du_run2 = numpy.std(pynn.membraneOutput)
         if self.with_figures:
-            pylab.figure()
-            pylab.plot(pynn.timeMembraneOutput, pynn.membraneOutput)
+            pylab.plot(pynn.timeMembraneOutput, pynn.membraneOutput, label="Conn = (w,0)")
+            pylab.legend()
             pylab.show()
 
         # plot and evaluate
