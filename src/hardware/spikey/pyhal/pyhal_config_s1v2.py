@@ -1208,7 +1208,10 @@ class HWAccess:
         """Build statusbyte <type> for setSynapseDriver()-call. Checks for STD. Lowest two bits are not affected (=> sourceType)!"""
 
         status = neurotypes.neuronType['baseValue']
-        if synapse.weight >= 0:
+        # Status bits for exc/inh will be zero if weight==0.
+        # In this case, the low-level code (see pyspikeyconfig.cpp) will not write any
+        # synapse driver parameters, i.e., setting of short-term plast., drviout, etc will be omitted.
+        if synapse.weight > 0:
             status += neurotypes.neuronType["excitatory"]
         elif synapse.weight < 0:
             status += neurotypes.neuronType["inhibitory"]
