@@ -78,7 +78,7 @@ class HWAccess:
         # use continuous STDP
         self.contSTDP = True
         # order in which hardware neurons are allocated
-        self.neuronPermutation = numpy.array([])
+        self.neuronPermutation = numpy.array([],dtype=int)
         # counter of hardware neurons needed to build network
         self.hwNeuronCounter = 0
 
@@ -339,7 +339,7 @@ class HWAccess:
                 'ERROR: Mapping offset is equal to or larger than available neuron number.')
 
         # mapping parameters
-        self.neuronPermutation = numpy.array(neuronPermutation)
+        self.neuronPermutation = numpy.array(neuronPermutation,dtype=int)
         self.mappingOffset = mappingOffset
 
         # clear mapping containers
@@ -622,10 +622,10 @@ class HWAccess:
             bioIndexSecondBlock = bioIndexList[
                 default.neuronsPerBlock:default.numNeurons]  # broken block
             self.neuronPermutation = numpy.array(numpy.concatenate((bioIndexFirstBlock[
-                                                 self.mappingOffset:], bioIndexFirstBlock[:self.mappingOffset], bioIndexSecondBlock)))
+                                                 self.mappingOffset:], bioIndexFirstBlock[:self.mappingOffset], bioIndexSecondBlock)),dtype=int)
         else:
             self.neuronPermutation = numpy.array(numpy.concatenate(
-                (bioIndexList[self.mappingOffset:], bioIndexList[:self.mappingOffset])))
+                (bioIndexList[self.mappingOffset:], bioIndexList[:self.mappingOffset])),dtype=int)
 
         # disable global trigger signal (will be enabled if membrane is
         # recorded)
