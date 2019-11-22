@@ -56,7 +56,7 @@ class Population(common.Population):
         label is an optional name for the population.
         """
         self.dim = dims
-        if isinstance(dims, int):  # also allow a single integer, for a 1D population
+        if isinstance(dims, int) or isinstance(dims, numpy.integer):  # also allow a single integer, for a 1D population
             self.dim = (self.dim,)
         else:
             assert isinstance(
@@ -97,7 +97,7 @@ class Population(common.Population):
           p = Population(...)
           p[2,3] is equivalent to p.__getitem__((2,3)).
         """
-        if isinstance(addr, int):
+        if isinstance(addr, int) or isinstance(addr, numpy.integer):
             addr = (addr,)
         if len(addr) == self.ndim:  # check if adress is in correct range
             for a, d in zip(addr, self.dim):
