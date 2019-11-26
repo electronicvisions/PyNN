@@ -572,8 +572,8 @@ def run(simtime=0, **extra_params):
         pin = 0  # default membrane pin to multiplex if multiple vouts are assigned to ibtest
         if _neuronsChanged:
             # enable membrane recordings
-            membraneCopyToTestPin = not(voltageOnTestPin in range(
-                hardware.hwa.numBlocks() * hardware.hwa.numVoutsPerBlock()))
+            membraneCopyToTestPin = not(voltageOnTestPin in list(range(
+                hardware.hwa.numBlocks() * hardware.hwa.numVoutsPerBlock())))
             pin = hardware.monitorMembrane(
                 _memPot_recordedNeurons, True, doFlush=False, copyToTestPin=membraneCopyToTestPin)
             # although not clear why: here ALL parameters have to be
@@ -586,7 +586,7 @@ def run(simtime=0, **extra_params):
             hardware.assignMultipleVoltages2IBTest(
                 voltageOnTestPin, leftBlock=True, rightBlock=True, pin4Mux=pin)
 
-        if (_neuronsChanged or _synapsesChanged) and (voltageOnTestPin in range(hardware.hwa.numBlocks() * hardware.hwa.numVoutsPerBlock())):
+        if (_neuronsChanged or _synapsesChanged) and (voltageOnTestPin in list(range(hardware.hwa.numBlocks() * hardware.hwa.numVoutsPerBlock()))):
             hardware.assignVoltage2TestPin(voltageOnTestPin % hardware.hwa.numVoutsPerBlock(
             ), int(voltageOnTestPin / hardware.hwa.numVoutsPerBlock()))
 
